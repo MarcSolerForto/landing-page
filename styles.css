@@ -1,0 +1,108 @@
+/*General*/
+
+* {
+    font-family: "Hero", sans-serif;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/*Header*/
+
+header{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 10px 150px 50px;
+    margin: -10px -10px 0px;
+}
+
+header .logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a {
+    color: #e5e7eb;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-style: bold;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    flex: 1;
+}
+
+
+.title-container {
+    display: flex;
+    gap: 100px;
+}
+
+.title-item{
+    flex: 1;
+}
+
+.image-item {
+    height: 300px;
+    flex: 0;
+    align-self: center;
+}
+
+/*Some random information*/
+
+.random-information {
+    padding: 50px 0px 100px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+}
+
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.random-img {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.random-p {
+    text-align: center;
+    width: 200px;
+}
+
+/*Quote*/
+
+.quote {
+    background-color: #e5e7eb;
+}
