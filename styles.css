@@ -1,7 +1,7 @@
 /*General*/
 
 * {
-    font-family: "Hero", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -103,6 +103,65 @@ h2 {
 
 /*Quote*/
 
-.quote {
+.quote{
     background-color: #e5e7eb;
+    display: flex;
+    padding: 50px 350px 80px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px -10px 0px;
+}
+
+.quote-text {
+    color: #1f2937; 
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 29px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: -10px;
+}
+
+/*Call to action*/
+
+.action-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 250px;
+    padding: 25px 100px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+.action-item > h3 {
+    font-size: 25px;
+}
+
+.action-p {
+    color: #e5e7eb;
+}
+
+.action-item > button {
+    border: 1px solid #f9faf8;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    margin: 0px -10px -10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
